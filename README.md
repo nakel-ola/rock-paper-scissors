@@ -26,7 +26,7 @@ Desktop Preview
 ### Links
 
 - Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/huddle-landing-page-with-alternating-feature-blocks-html-and-css-aNXYBFr8I9)
-- Live Site URL: [Live Site at Vercel](https://ecommerce-product-page-eight-khaki.vercel.app/)
+- Live Site URL: [Live Site at Vercel](https://rock-paper-scissors-tan-one.vercel.app/)
 ## My process
 
 ### Built with
