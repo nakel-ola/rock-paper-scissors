@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import GameBoard from "./components/GameBoard";
 import PickedBoard from "./components/PickedBoard";
 import ScoreBoard from "./components/ScoreBoard";
+import useLocalStorage from "./hooks/useLocalStorage";
 
 export interface Setting {
   board: "triangle" | "pentagon";
@@ -69,7 +70,7 @@ function App() {
     house: null,
     result: null
   });
-  const [score,setScore] = useState<number>(0);
+  const [score,setScore] = useLocalStorage<number>("rock-paper-scissors-score", 0);
 
   const [setting, setSetting] = useState<Setting>({
     board: "triangle",
