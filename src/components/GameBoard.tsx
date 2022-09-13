@@ -285,7 +285,8 @@ export const Circle = styled("div")<CircleProps>(
     borderRadius: "50%",
     background: `radial-gradient(circle at top,${color1}, ${color2})`,
     backgroundRepeat: "no-repeat",
-    boxShadow: `rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px`,
+    boxShadow: "inset 0px -8px 0px rgba(0, 0, 0, 0.25)",
+    // boxShadow: `rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px`,
     transition: "all 0.3s ease",
     "&:hover": {
       transform: "scale(1.05)",
@@ -302,8 +303,8 @@ export const Circle = styled("div")<CircleProps>(
       height: "70%",
       borderRadius: "50%",
       background: "#fff",
-      boxShadow:
-        "rgba(255, 255, 255, 0.1) -3px -3px 6px 1px inset, hsl(217, 16%, 45%) 3px 3px 6px 0px inset",
+      boxShadow: "inset 0px 8px 0px rgba(0, 0, 0, 0.15)",
+      // boxShadow: "rgba(255, 255, 255, 0.1) -3px -3px 6px 1px inset, hsl(217, 16%, 45%) 3px 3px 6px 0px inset",
       display: "flex",
       alignItems: "center",
       justifyContent: "center",
